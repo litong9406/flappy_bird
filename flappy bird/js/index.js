@@ -114,7 +114,7 @@ function create_pipe() {
 	//将创建的管道放入外层div
 	conduit_group.appendChild(conduitItem);
 	var topHeight = rand(60, 223);//管道里面上管道的高度值
-	var bottomHeight = 373 - 100 - topHeight;//管道里面下管道的高度值
+	var bottomHeight = 323 - 100 - topHeight;//管道里面下管道的高度值
 	//创建上下管道
 	conduitItem.innerHTML = '<div class="top_conduit"><div style="height:' + topHeight + 'px"></div></div><div class="bottom_conduit"><div style="height:' + bottomHeight + 'px"></div></div>'
 	//获取最外层div的宽度，即为管道可以移动的最大值
