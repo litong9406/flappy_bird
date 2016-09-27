@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>FlyBird</title>
+    <link rel="stylesheet" href="css/game.css" media="screen" title="no title">
+</head>
+
+<body>
+    <div class="canvas">
+        <!-- 游戏开始 -->
+        <div class="game_start">
+            <div class="head">
+              <img src="images/head.jpg" alt="">
+              <span class="small_bird" ></span>
+            </div>
+            <div class="btns">
+              <span class="start_btn"></span>
+              <span class="submit_btn"></span>
+            </div>
+        </div>
+        <!-- 移动条 -->
+        <div class="slider">
+          <img src="images/slider.jpg" alt="">
+          <img src="images/slider.jpg" alt="">
+        </div>
+        <!-- 鸟 🐦-->
+        <div id="flybird" class="bird">
+          <!--<img src="images/bird0.png" alt="">-->
+        </div>
+        <!-- 管道 -->
+        <div class="conduit_group">
+
+        </div>
+        <!-- 游戏结束 -->
+
+        <div class="gameover">
+          <div class="overImg">
+            <img src="images/game_over.jpg" alt="">
+          </div>
+          <div class="overMessage">
+            <span class="thisScore"></span>
+            <span class="historyScore"></span>
+          </div>
+          <div class="game_restart">
+            <img src="images/ok.jpg" alt="">
+          </div>
+
+        </div>
+
+        <!-- 积分 -->
+        <div id="scroing" class="scroing">
+            <!--<img src="images/0.jpg" alt="">-->
+        </div>
+    </div>
+			<audio class='bgm' src="source/game_music.mp3" autoplay="autoplay" loop="loop"></audio>
+			<audio class='gameover_bgm' src="source/game_over.mp3" autoplay="autoplay" ></audio>
+			<audio class='up_bgm' src="source/bullet.mp3" autoplay="autoplay"></audio>
+</body>
+<!-- <script src="js/game.js" charset="utf-8"></script> -->
+<script type="text/javascript" src="js/index.js"></script>
+</html>
